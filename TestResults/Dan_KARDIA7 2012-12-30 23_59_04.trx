@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cfae522b-39d7-443d-9e46-8f4387dfec52" name="Dan@KARDIA7 2012-12-30 23:59:04" runUser="Kardia7\Dan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="ローカル" id="16785457-818c-483b-bda1-61626e588443">
+    <Description>これらはローカル テスト実行用の既定のテスト設定です。</Description>
+    <Deployment enabled="false" runDeploymentRoot="Dan_KARDIA7 2012-12-30 23_59_04">
+      <DeploymentItem filename="C:\Users\Dan\Dropbox\CommonLibrary\ファイル屋\bin\Debug\ファイル屋.dll" />
+      <DeploymentItem filename="C:\Users\Dan\Dropbox\Demos\NtfsStreams\Trinet.Core.IO.Ntfs\bin\Debug\Trinet.Core.IO.Ntfs.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-12-30T23:59:04.4376074+09:00" queuing="2012-12-30T23:59:04.7476251+09:00" start="2012-12-30T23:59:04.7706264+09:00" finish="2012-12-30T23:59:05.1336472+09:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="全ファイル取得Test" storage="c:\users\dan\dropbox\zoneidremover\test_ファイル屋\bin\debug\test_ファイル屋.dll" id="8eee6679-5d1f-6f07-d61c-c765fdaf8167">
+      <Execution id="7cf6b9e2-4472-4300-8b76-2b56c283028e" />
+      <TestMethod codeBase="C:/Users/Dan/Dropbox/ZoneIDRemover/TEST_ファイル屋/bin/Debug/TEST_ファイル屋.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TEST_ファイル屋.FileExTest, TEST_ファイル屋, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="全ファイル取得Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="一覧に存在しない結果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="読み込まれたすべての結果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8eee6679-5d1f-6f07-d61c-c765fdaf8167" executionId="7cf6b9e2-4472-4300-8b76-2b56c283028e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7cf6b9e2-4472-4300-8b76-2b56c283028e" testId="8eee6679-5d1f-6f07-d61c-c765fdaf8167" testName="全ファイル取得Test" computerName="KARDIA7" duration="00:00:00.1418862" startTime="2012-12-30T23:59:04.7806270+09:00" endTime="2012-12-30T23:59:05.1056456+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7cf6b9e2-4472-4300-8b76-2b56c283028e">
+      <Output>
+        <ErrorInfo>
+          <Message>テスト メソッド TEST_ファイル屋.FileExTest.全ファイル取得Test が例外をスローしました: 
+System.IO.IOException: ディレクトリ名が無効です。
+</Message>
+          <StackTrace>    場所 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   場所 System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   場所 System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   場所 System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   場所 尾画茶.FileEx.&lt;全ファイル取得&gt;d__0.MoveNext() 場所 C:\Users\Dan\Dropbox\CommonLibrary\ファイル屋\FileEx.cs:行 20
+   場所 System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   場所 System.Linq.OrderedEnumerable`1.&lt;GetEnumerator&gt;d__0.MoveNext()
+   場所 System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   場所 System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   場所 TEST_ファイル屋.FileExTest.全ファイル取得Test() 場所 C:\Users\Dan\Dropbox\ZoneIDRemover\TEST_ファイル屋\FileExTest.cs:行 85
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
