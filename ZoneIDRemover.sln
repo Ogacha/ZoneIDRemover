@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2012 for Windows Desktop
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZoneIDRemover", "ZoneIDRemover\ZoneIDRemover.csproj", "{EE65E833-C262-4B8A-8E5E-A3D013EDFA87}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ファイル屋", "..\CommonLibrary\ファイル屋\ファイル屋.csproj", "{056B536D-42CD-47DD-87A0-540441F12B8D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trinet.Core.IO.Ntfs", "..\Demos\NtfsStreams\Trinet.Core.IO.Ntfs\Trinet.Core.IO.Ntfs.csproj", "{520A3DF2-071D-47AE-9B25-2A286306DDF5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEST_ファイル屋", "TEST_ファイル屋\TEST_ファイル屋.csproj", "{DE137B3A-F891-49A6-9161-79D694524A07}"
 EndProject
@@ -17,9 +15,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Global
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = ZoneIDRemover.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -40,26 +35,6 @@ Global
 		{EE65E833-C262-4B8A-8E5E-A3D013EDFA87}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{EE65E833-C262-4B8A-8E5E-A3D013EDFA87}.Release|x86.ActiveCfg = Release|Any CPU
 		{EE65E833-C262-4B8A-8E5E-A3D013EDFA87}.Release|x86.Build.0 = Release|Any CPU
-		{056B536D-42CD-47DD-87A0-540441F12B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{056B536D-42CD-47DD-87A0-540441F12B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{056B536D-42CD-47DD-87A0-540441F12B8D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{056B536D-42CD-47DD-87A0-540441F12B8D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{056B536D-42CD-47DD-87A0-540441F12B8D}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{056B536D-42CD-47DD-87A0-540441F12B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{056B536D-42CD-47DD-87A0-540441F12B8D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{056B536D-42CD-47DD-87A0-540441F12B8D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{056B536D-42CD-47DD-87A0-540441F12B8D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{056B536D-42CD-47DD-87A0-540441F12B8D}.Release|x86.ActiveCfg = Release|Any CPU
-		{520A3DF2-071D-47AE-9B25-2A286306DDF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{520A3DF2-071D-47AE-9B25-2A286306DDF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{520A3DF2-071D-47AE-9B25-2A286306DDF5}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{520A3DF2-071D-47AE-9B25-2A286306DDF5}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{520A3DF2-071D-47AE-9B25-2A286306DDF5}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{520A3DF2-071D-47AE-9B25-2A286306DDF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{520A3DF2-071D-47AE-9B25-2A286306DDF5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{520A3DF2-071D-47AE-9B25-2A286306DDF5}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{520A3DF2-071D-47AE-9B25-2A286306DDF5}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{520A3DF2-071D-47AE-9B25-2A286306DDF5}.Release|x86.ActiveCfg = Release|Any CPU
 		{DE137B3A-F891-49A6-9161-79D694524A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DE137B3A-F891-49A6-9161-79D694524A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE137B3A-F891-49A6-9161-79D694524A07}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -73,5 +48,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ZoneIDRemover.vsmdi
 	EndGlobalSection
 EndGlobal
